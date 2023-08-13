@@ -32,7 +32,8 @@ fn get_all_files_in_directory(path: &str) -> Vec<PathBuf> {
                 let file_path = entry.path();
                 if file_path.is_file() {
                     files.push(file_path.to_owned());
-                } else if file_path.is_dir() {
+                } 
+                else if file_path.is_dir() {
                     let mut subdirectory_files = get_all_files_in_directory(file_path.to_str().unwrap());
                     files.append(&mut subdirectory_files);
                 }

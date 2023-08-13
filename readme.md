@@ -1,7 +1,7 @@
 # rgrep
 
 **입력 형식**
- - dgrep {keyword} {relative path}
+ - rgrep {keyword} {relative path}
 
 **출력 형식**
  - 파일의 각 line에 keyword가 있는 경우, 해당 파일과 줄 번호를 출력한다.

@@ -1,12 +1,12 @@
 # rgrep
 
-**입력 형식**
+**Command**
  - rgrep {keyword} {relative path}
 
-**출력 형식**
+**Output**
  - 파일의 각 line에 keyword가 있는 경우, 해당 파일과 줄 번호를 출력한다.
 
-**조건**
+**Condition**
 1. relative path가 디렉토리인 경우 디렉토리 내 모든 파일에 대해 검사를 진행한다.
 2. relative path 내에 또 다른 디렉토리가 존재하는 경우, 각 디렉토리 내 모든 파일에 대한 검사 또한 진행한다.
 4. 동일한 파일에 대한 검사 결과는 한 번에 출력되어야 한다.
